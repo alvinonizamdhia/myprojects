@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    background-image: url(sherlockholmes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#container {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#header {
+    width: 800px;
+    height: 100px;
+    background-image: url(background.jpg);
+}
+
+.judul {
+    font-size: 25pt;
+    padding-top: 20px;
+    color: white;
+    font-family: "Changa One", sans-serif;
+    font-style: italic;
+}
+
+#menu {
+    width: 800px;
+    height: auto;
+    background-color: gray;
+}
+
+#main {
+    display: flex;
+}
+
+#sidebar {
+    width: 300px;
+    height: auto;
+    background-color: blanchedalmond;
+    float: left;
+}
+
+.widget {
+    width: 250px;
+    height: auto;
+    padding: 20px;
+}
+
+#content {
+    width: 500px;
+    height: auto;
+    background-color: rgb(221, 222, 171);
+    float: left;
+}
+
+
+.navigasi {
+    display: flex;
+    color: white;
+    font-family: monospace;
+    list-style: none;
+    padding: 10px;
+    font-size: 15pt;
+}
+
+.navigasi li:hover {
+    color: black;
+    cursor: zoom-in;
+}
+
+.navigasi li{
+    padding-left: 40px;
+}
+
+.widget p {
+    line-height: 1.5em;
+}
+
+.post {
+    text-align: justify;
+    min-height: 10px;
+    margin: 20px;
+    width: 450px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
