@@ -37,9 +37,13 @@ body {
 #menu {
     width: 800px;
     height: auto;
+    background-color: rgb(140, 158, 86);
+}
+#footer {
+    width: 800px;
+    height: 50px;
     background-color: gray;
 }
-
 #main {
     display: flex;
 }
@@ -83,6 +87,11 @@ body {
     padding-left: 40px;
 }
 
+.navigasi a{
+    text-decoration: none;
+    color: white;
+}
+
 .widget p {
     line-height: 1.5em;
 }
@@ -94,4 +103,27 @@ body {
     width: 450px;
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
+}
+
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 2px solid #000000;
+}
+#footer p {
+    color: rgb(0, 0, 0);
+    font-size: 25pt;
+}
+
+#footer {
+    background-color: rgb(191, 130, 79);
+    width: 800px;
+    height: 100px;
 }
