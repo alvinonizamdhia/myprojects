@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
 * {
     padding: 0;
@@ -37,7 +37,7 @@ body {
 #menu {
     width: 800px;
     height: auto;
-    background-color: rgb(140, 158, 86);
+    background-color: #800020;
 }
 #footer {
     width: 800px;
@@ -51,7 +51,7 @@ body {
 #sidebar {
     width: 300px;
     height: auto;
-    background-color: blanchedalmond;
+    background-color: #FAF9F6;
     float: left;
 }
 
@@ -64,7 +64,7 @@ body {
 #content {
     width: 500px;
     height: auto;
-    background-color: rgb(221, 222, 171);
+    background-color: #4A4C52;
     float: left;
 }
 
@@ -110,20 +110,58 @@ table {
     margin: 20px auto;
     border-collapse: collapse;
     color: rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Comfortaa", sans-serif;
 }
 
 th, td {
     padding: 12px 15px;
-    border: 2px solid #000000;
+    border: 1px solid #000000;
 }
 #footer p {
     color: rgb(0, 0, 0);
-    font-size: 25pt;
+    font-size: 15pt;
+    padding-left: 50px;
+    padding-top: 20px;
 }
 
 #footer {
     background-color: rgb(191, 130, 79);
     width: 800px;
-    height: 100px;
+    height: 70px;
+}
+
+.post a {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+thead th{
+    background-color: #800020;
+}
+
+tbody td{
+    background-color: #60626B;
+}
+
+#gif {
+    position: fixed;
+    left: 1100px;
+}
+
+#gif2 {
+    position: fixed;
+    top: 450px;
+}
+
+.galley {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.gallery img{
+    width: 48%;
+    height: auto;
 }
