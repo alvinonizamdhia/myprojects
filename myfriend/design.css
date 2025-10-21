@@ -1,0 +1,53 @@
+body {
+    background-color: darkkhaki;
+}
+
+#perpan {
+    width: 800px;
+    height: 600px;
+    background-color: rgba(38, 119, 38, 0.966);
+    position: absolute;
+    left: 200px;
+}
+
+#navigasi {
+    width: 800px;
+    height: 80px ;
+    background-color: darkslategrey;
+    border-radius: 1em 1em 1em 1em;
+}
+#a{
+    width: 380px ;
+    height: 450px ;
+    background-color: khaki;
+    position: absolute;
+    left:20px ;
+    top: 100px;
+   }
+#b{
+    width: 350px ;
+    height: 450px ;
+    background-color: khaki;
+    position: absolute;
+    left: 420px;
+    top: 100px
+    
+}
+
+.menu{
+    list-style: none;
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+}
+
+.menu li{
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: aqua;
+}
